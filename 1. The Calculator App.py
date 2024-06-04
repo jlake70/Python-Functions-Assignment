@@ -2,7 +2,7 @@
 
 def addition(a, b):
     return a + b
-
+    
 def subtraction(a, b):
     return a - b
 
@@ -11,7 +11,7 @@ def multiplication(a, b):
 
 def division(a, b):
     if b == 0:
-        return print("Change the value for 'b', cannot divide by zero.")
+        return print("Change the value for 'b', cannot divide by zero. \n Restart the calculator. ")
     else: 
         return a / b
 
@@ -37,7 +37,7 @@ def user_input():
     elif operation == "/":
         print(division(a, b))
     else:
-        print("Invalid choice, please revise entry.")
+        print("Invalid choice, please revise entry. \n Restart the calculator. ")
 
 
 user_input()
