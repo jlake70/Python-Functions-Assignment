@@ -24,6 +24,13 @@ def add_items():
 
      
 new_list = add_items()    
-print("This items are on your shopping list are: ", new_list)
+print(new_list)
 
+# Task 3
 
+def shopping_list_format():
+    print("Here is your final list of items to get: ", new_list)
+
+    return new_list
+
+shopping_list_format()
