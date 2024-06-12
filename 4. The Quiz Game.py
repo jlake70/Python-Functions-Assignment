@@ -1,4 +1,4 @@
-# Task 1
+# Task 1, 2, and 3
 
 def quiz():
     print("Let's take a quiz, here are the questions:\n") 
